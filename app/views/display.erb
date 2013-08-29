@@ -1,6 +1,13 @@
 <div class="container">
   <h1>Your shortened URL</h1>
 
-<%= "localhost:9393/#{@extension}" %>
 
+
+  <input type="text" size="25" value= <%= "localhost:9393/#{@extension}" %> >
+
+
+
+<h1> Use this URL to check your analytics <h2>
+
+  <input type="text" size="25" value= <%= "localhost:9393/analytics/#{@extension}" %> >
 </div>
